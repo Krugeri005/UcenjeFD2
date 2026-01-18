@@ -2,6 +2,21 @@ body{
     background-color: antiquewhite;
 }
 
+@font-face{
+    font-family: 'Ljubav';
+    src: url('../fonts/LavishlyYours-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Galada';
+    src: url('../fonts/Galada-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Cabinet';
+    src: url('../fonts/CabinetGrotesk-Regular.woff2') format('woff2');
+}
+
 h1{
-    color: black;
+    font-family: 'Cabinet', 'Times New Roman', serif;
 }
